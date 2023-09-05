@@ -6,4 +6,4 @@ git clone --depth 1 https://github.com/xiaomi-sm6375-devs/android_kernel_xiaomi_
 
 git clone --depth 1 https://github.com/Xiaomi-SM6375/device_xiaomi_stone-kernel device/xiaomi/stone-kernel
 
-git clone --depth 1 https://github.com/LineageOS/android_hardware_xiaomi hardware/xiaomi
+git clone --depth 1 https://github.com/moonstone-devs/hardware_xiaomi hardware/xiaomi
