@@ -17,10 +17,6 @@ PRODUCT_AAPT_PREF_CONFIG := xhdpi
 TARGET_SCREEN_HEIGHT := 2400
 TARGET_SCREEN_WIDTH := 1080
 
-# Init scripts
-PRODUCT_PACKAGES += \
-    init.xiaomi.rc
-
 # NFC
 PRODUCT_PACKAGES += \
     android.hardware.nfc@1.2-service.st \
