@@ -18,6 +18,10 @@ TARGET_SCREEN_HEIGHT := 2400
 TARGET_SCREEN_WIDTH := 1080
 TARGET_BOOT_ANIMATION_RES := $(TARGET_SCREEN_WIDTH)
 
+# Init scripts
+PRODUCT_PACKAGES += \
+    init.xiaomi.rc
+
 # NFC
 PRODUCT_PACKAGES += \
     android.hardware.nfc@1.2-service.st \
