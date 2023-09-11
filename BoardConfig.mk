@@ -17,7 +17,7 @@ TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):init_stone
 TARGET_RECOVERY_DEVICE_MODULES := init_stone
 
 # OTA Assert
-TARGET_OTA_ASSERT_DEVICE := moonstone,sunstone
+TARGET_OTA_ASSERT_DEVICE := moonstone,sunstone,stone
 
 # Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
