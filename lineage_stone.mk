@@ -14,6 +14,10 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 # Inherit from stone device
 $(call inherit-product, device/xiaomi/stone/device.mk)
 
+# Device props
+TARGET_SUPPORTS_BLUR := true
+TARGET_SUPPORTS_QUICK_TAP := true
+
 # Charging Animation
 TARGET_USE_PIXEL_CHARGER := true
 
