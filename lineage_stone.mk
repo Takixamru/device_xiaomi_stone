@@ -14,6 +14,10 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 # Inherit from stone device
 $(call inherit-product, device/xiaomi/stone/device.mk)
 
+# Charging Animation
+TARGET_USE_PIXEL_CHARGER := true
+
+# Device identifier. This must come after all inclusions.
 PRODUCT_NAME := lineage_stone
 PRODUCT_DEVICE := stone
 PRODUCT_MANUFACTURER := Xiaomi
