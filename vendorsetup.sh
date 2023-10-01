@@ -7,3 +7,5 @@ git clone --depth=1 https://github.com/Stone-Trees/kernel_xiaomi_sm6375.git -b l
 git clone --depth=1 https://github.com/Stone-Trees/xiaomi_stone-kernel.git device/xiaomi/stone-kernel
 
 git clone --depth=1 https://github.com/stone-devs/hardware_xiaomi hardware/xiaomi
+
+git clone --depth=1 https://github.com/Drpto/packages_apps_prebuilts.git packages/apps/prebuilts
