@@ -9,3 +9,7 @@ git clone --depth=1 https://github.com/Stone-Trees/xiaomi_stone-kernel.git devic
 git clone --depth=1 https://github.com/stone-devs/hardware_xiaomi hardware/xiaomi
 
 git clone --depth=1 https://github.com/TogoFire/packages_apps_ViPER4AndroidFX.git -b v4a packages/apps/ViPER4AndroidFX
+
+rm -rf hardware/qcom-caf/sm8350/display
+
+git clone --depth=1 https://github.com/LineageOS/android_hardware_qcom_display.git -b lineage-21.0-caf-sm8350 hardware/qcom-caf/sm8350/display
